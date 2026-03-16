@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pulpo Sushi - Links</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Reservas, carta y redes oficiales de Pulpo Sushi." />
 
+  <!-- Iconos Remix (NO SE ROMPE NUNCA) -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <main class="page">
+    <section class="card">
+
+      <!-- Logo -->
+      <div class="logo-wrapper">
+        <img src="logopicania.png" alt="Pulpo Sushi" class="logo" />
+      </div>
+
+     <!--  <h1 class="title">PULPO</h1> -->
+    <div class="horario">
+      <p class="subtitle">
+        Miercoles a Domingos de 19:00 a 22:45
+      </p>
+    </div>
+
+      <!-- LINKS CON ICONOS -->
+      <div class="links">
+
+        <a class="link-button" href="https://www.wokiapp.com/restaurante/picana?slug=picana&enterByLink=true&quantity=4&showDay=2025-11-16T22%3A00%3A00Z&policy=&isTimeFlexible=false&isSectorFlexible=false&id=c5562dcd-610f-4a46-9cb9-e8fb16b46853" target="_blank">
+  <span class="icon-wrapper"><i class="ri-store-2-line icon"></i></span>
+  Reservas online
+</a>
+<!--
+<a class="link-button" href="https://mimenulatech.com/picania/menu" target="_blank">
+  <span class="icon-wrapper"><i class="ri-book-open-line icon"></i></span>
+  Ver la carta
+</a>   -->
+
+<a class="link-button" href="https://maps.app.goo.gl/6CU4ZTWoRq9hkQE29" target="_blank">
+  <span class="icon-wrapper"><i class="ri-map-pin-line icon"></i></span>
+  Ubicación
+</a>
+
+<a class="link-button" href="https://wa.me/5493415039986" target="_blank">
+  <span class="icon-wrapper"><i class="ri-whatsapp-line icon"></i></span>
+  WhatsApp
+</a>
+
+<a class="link-button" href="https://www.instagram.com/picaniarosario/" target="_blank">
+  <span class="icon-wrapper"><i class="ri-instagram-line icon"></i></span>
+  Instagram
+</a>
+
+        <a class="link-button brand-button" href="https://larotipicania.github.io/larotilinks">
+  <span class="brand-logo swap-logo">
+    <img src="logolaroticrema.png" alt="Picaña" class="logo-default">
+    <img src="logolarotiazul.png" alt="Picaña" class="logo-hover">
+  </span>
+</a>
+<!-- <a class="link-button" href="https://docs.google.com/forms/d/e/1FAIpQLSeeWUD43sNKwrkGrfbcbjcWFXwm-xlk7P4lv6Rgy3wFjg1JyA/viewform" target="_blank">
+  <span class="icon-wrapper"><i class="ri-hand-coin-line icon"></i></span>
+  Trabajá con nosotros
+</a> -->
+      </div>
+
+      <p class="footer">
+        © <span id="year"></span> Pulpo
+      </p>
+
+    </section>
+  </main>
+
+  <script>
+    // Año automático
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>

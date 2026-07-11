@@ -215,3 +215,9 @@ body {
   font-weight: 700;
   letter-spacing: .25em;
 }
+ .horario-title span {
+  flex: 1;
+  height: 1px;
+  background: #22396b;
+  opacity: .35;
+}

@@ -1,3 +1,6 @@
+Borrá todo el contenido del archivo, pegá esto y tocá **Commit changes**:
+
+```css
 :root {
   --bg-color: #1b3059;      /* Azul */
   --accent-color: #fff7e3;  /* Cremita */
@@ -51,10 +54,10 @@ body {
 
 /* Logo */
 .logo-wrapper {
-  width: 160px;
-  height: 160px;
-  margin: 0 auto 2px;
-  border-radius: 50%;
+  width: 260px;
+  max-width: 100%;
+  aspect-ratio: 3 / 1;
+  margin: 0 auto 8px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -221,3 +224,4 @@ body {
   background: #22396b;
   opacity: .35;
 }
+```

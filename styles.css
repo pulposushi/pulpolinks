@@ -1,6 +1,3 @@
-Borrá todo el contenido del archivo, pegá esto y tocá **Commit changes**:
-
-```css
 :root {
   --bg-color: #1b3059;      /* Azul */
   --accent-color: #fff7e3;  /* Cremita */
@@ -224,4 +221,3 @@ body {
   background: #22396b;
   opacity: .35;
 }
-```
